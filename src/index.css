@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    --background-color: linear-gradient(135deg, #1e0533, #110a1f);
+    --accent-color:#8a2be2;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: var(--background-color);
+    color :white;
+}
